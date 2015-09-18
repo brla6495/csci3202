@@ -1,4 +1,4 @@
-from AI2 import*
+from Assignment3 import*
 
 fileName = raw_input("Name of World File: ")
 heuristic = raw_input("Name of Heuristic ('manhattan or euclidean'): ")

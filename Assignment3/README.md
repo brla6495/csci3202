@@ -6,4 +6,18 @@ Follow the prompts. Options for worlds are World1.txt and World2.txt. Options fo
 #Heuristic Explaination:
 The manhattan heuristic deals with horizontal and vertical movement. This leads to inefficiencies, since the shorter path can be found by finding the diagonal hypotenuse. Thus, I decided to use the euclidean distance formula as my second heuristic. It is adapted from the pythagorean theorem, taking the square root of the sum of the squares of each side. 
 
-	sqrt(math.pow(x-x1,2) + math.pow(y-y1,2))
+	cost*(sqrt(math.pow(x-x1,2) + math.pow(y-y1,2)))
+
+The euclidean heuristic was more efficient and produced a lower path cost than the manhattan, based on the givent heuristic cost.
+
+	Manhattan:
+	RESULTS:
+	Total path cost: 156
+	Total locations evaluated: 33
+	
+	Euclidean:
+	RESULTS:
+	Total path cost: 130.0
+	Total locations evaluated: 33
+
+	
