@@ -1,4 +1,3 @@
-# Assignment 3
 #To Run the File:
 > python Assignment3TestFile.py
 
