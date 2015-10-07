@@ -2,7 +2,7 @@
 
 > python Main.py
 
-Follow the prompts, and enter the name of the world file (including the extension) and the value for e. Note tha tthe code is written to handle an 8x10 grid.
+Follow the prompts, and enter the name of the world file (including the extension) and the value for e. Note that the code is written to handle an 8x10 grid.
 
 #Question Answer:
 
